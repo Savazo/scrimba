@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+.whole {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 10 10 20 20px;
+    border: 3px solid #1f1f1f;
+    background-color: #fff;
+}
+.left {
+    margin-right: 40px;
+}
+.category {
+    color: #565959;
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.title {
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.author{
+    margin-top: 15px;
+    
+}
+a{
+    color: #007185;
+}
+.ratings{
+    margin-bottom: 15px;
+    height: 25px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    height: 500px;
+    width: 350px;
+    margin-left: 20px;
+    }
